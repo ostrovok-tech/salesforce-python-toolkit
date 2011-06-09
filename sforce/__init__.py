@@ -24,3 +24,5 @@ import sys
 class NotImplementedError(Exception):
     def __init__(self, name):
         Exception.__init__(self, name)
+
+__version__ = '0.1.5'
